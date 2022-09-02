@@ -1,2 +1,55 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*
+    paleta de cores
+    #3744E0
+    #82C2FF
+    #BC7A7E
+    #7A4136
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #82C2FF;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    overflow: hidden;
+}
+
+section#login  div#imagem {
+    display: block;
+    background-image: url(../imagens/tela-login2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+section#login div#formulario {
+    display: block;
+    padding: 10px;
+}
