@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: #82C2FF;
+    background-color: #3744E0;
     width: 100vw;
     height: 100vh;
 }
@@ -39,12 +39,14 @@ section#login {
     border-radius: 20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
     overflow: hidden;
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
 }
 
 section#login  div#imagem {
     display: block;
     background-image: url(../imagens/tela-login2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
 }
